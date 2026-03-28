@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bombay Indian Restaurant — Authentic Indian Cuisine, Santa Ponsa, Mallorca</title>
+<meta name="description" content="Bombay Indian Restaurant — Authentic Indian flavours with Mediterranean soul. Santa Ponsa, Mallorca. Open daily 12–00.">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<canvas id="emberCanvas"></canvas>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">
+      <img src="images/logo.png" alt="Bombay Indian Restaurant" class="logo-full">
+      <img src="images/logo-icon.png" alt="Bombay" class="logo-compact">
+      <span class="logo-sub">Indian Restaurant</span>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#story">Our Story</a>
+      <a href="#menu">Menu</a>
+      <a href="#specialities">Specialities</a>
+      <a href="#contact">Visit Us</a>
+    </div>
+    <a href="tel:+34971635713" class="nav-cta">Reserve a Table</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<!-- ====== HERO (dark) ====== -->
+<section class="hero" id="home">
+  <div class="hero-depth" id="heroDepth">
+    <div class="depth-layer" data-mouse="0.005" data-scroll="0">
+      <img src="images/hero-bg.webp" alt="" class="hero-layer-img layer-bg" loading="eager">
+    </div>
+    <div class="depth-layer" data-mouse="0.008" data-scroll="0.15">
+      <img src="images/hero-spices.webp" alt="" class="hero-layer-img layer-spices" loading="eager">
+    </div>
+    <div class="depth-layer" data-mouse="0.01" data-scroll="0.3">
+      <img src="images/hero-dish-1.webp" alt="" class="hero-layer-img layer-dish" loading="eager">
+    </div>
+    <div class="depth-layer" data-mouse="0.012" data-scroll="0.45">
+      <img src="images/hero-dish-2.webp" alt="" class="hero-layer-img layer-dish" loading="eager">
+    </div>
+    <div class="depth-layer" data-mouse="0.015" data-scroll="0.6">
+      <img src="images/hero-dish-3.webp" alt="Butter chicken curry" class="hero-layer-img layer-dish layer-curry" loading="eager">
+    </div>
+    <div class="depth-layer layer-text-wrap" data-mouse="0.04" data-scroll="0.25">
+      <div class="hero-text">
+        <div class="hero-badge"><span class="badge-line"></span><span>Authentic Indian Cuisine · Santa Ponsa</span><span class="badge-line"></span></div>
+        <h1 class="hero-title">
+          <span class="tr"><span class="tw" style="--i:0">The</span> <span class="tw" style="--i:1">Flavours</span></span>
+          <span class="tr accent"><span class="tw" style="--i:2">of</span> <span class="tw" style="--i:3">Bombay</span></span>
+          <span class="title-sub">in the Heart of the Mediterranean</span>
+        </h1>
+        <p class="hero-desc">Where centuries-old North Indian recipes meet the warmth of Mallorca. Every dish a journey. Every spice a story.</p>
+        <div class="hero-actions">
+          <a href="#menu" class="btn btn-gold"><span>Explore Menu</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          <a href="tel:+34971635713" class="btn btn-glass"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span>Reserve a Table</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll"><div class="scroll-mouse"><div class="scroll-wheel"></div></div><span>Scroll</span></div>
+</section>
+
+
+<!-- ====== STORY (cream) ====== -->
+<section class="story" id="story">
+  <div class="section-watermark wm-top-right"><img src="images/bg-overlay.webp" alt="" class="wm-img"></div>
+  <div class="container">
+    <div class="story-grid">
+      <div class="story-visual anim">
+        <div class="story-frame">
+          <div class="fc tl"></div><div class="fc tr"></div><div class="fc bl"></div><div class="fc br"></div>
+          <div class="frame-inner"><img src="images/story-photo.webp" alt="Bombay Indian Restaurant" class="frame-img"></div>
+        </div>
+        <div class="story-badge"><div class="sb-stars">★★★★★</div><div class="sb-score">4.6</div><div class="sb-src">Google Reviews</div></div>
+      </div>
+      <div class="story-content">
+        <span class="section-tag anim">Our Heritage</span>
+        <h2 class="section-title anim">A Family Legacy<br><em>Served with Love</em></h2>
+        <p class="anim">Born from generations of North Indian culinary tradition, Bombay Indian Restaurant brings authentic flavours to the sunlit shores of Santa Ponsa. Our family recipes, passed down with care, meet the finest local ingredients of Mallorca.</p>
+        <p class="anim">Every dish honours our roots — aromatic spice blends ground fresh each morning, the tandoor fired to perfection, naan baked with devotion. This is more than a restaurant. It is our home, and you are always welcome at our table.</p>
+        <div class="values anim">
+          <div class="value"><div class="vi"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2c0 4-4 6-4 10a4 4 0 0 0 8 0c0-4-4-6-4-10z"/><path d="M12 22v-4"/></svg></div><div><strong>Tandoor Crafted</strong><span>Traditional clay oven cooking</span></div></div>
+          <div class="value"><div class="vi"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a5 5 0 0 1 5 5c0 3-2 5-5 8-3-3-5-5-5-8a5 5 0 0 1 5-5z"/><path d="M9 18h6"/><path d="M10 22h4"/><path d="M12 18v4"/></svg></div><div><strong>Fresh Spices</strong><span>Ground each morning</span></div></div>
+          <div class="value"><div class="vi"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div><div><strong>Family Run</strong><span>Generations of flavour</span></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ====== MENU (off-white) ====== -->
+<section class="menu" id="menu">
+  <div class="container">
+    <span class="section-tag anim">The Menu</span>
+    <h2 class="section-title center anim">Signature<br><em>Dishes</em></h2>
+    <div class="menu-filters anim">
+      <button class="filter active" data-filter="all">All</button>
+      <button class="filter" data-filter="curry">Curries</button>
+      <button class="filter" data-filter="sizzler">Sizzlers</button>
+      <button class="filter" data-filter="biryani">Biryani</button>
+      <button class="filter" data-filter="naan">Naan</button>
+    </div>
+    <div class="menu-grid" id="menuGrid">
+
+      <!-- CURRIES -->
+      <article class="dish anim" data-cat="curry">
+        <div class="dish-visual"><img src="images/dish-butter-chicken.webp" alt="Butter Chicken" class="dish-img"><span class="dish-badge">Popular</span></div>
+        <div class="dish-info"><h3>Butter Chicken</h3><p>Famous Punjabi classic — rich &amp; smooth gravy of tomatoes, butter, garlic &amp; ginger with delicious spices</p></div>
+      </article>
+
+      <article class="dish anim" data-cat="curry">
+        <div class="dish-visual"><img src="images/dish-chicken-tikka-masala.webp" alt="Chicken Tikka Masala" class="dish-img"></div>
+        <div class="dish-info"><h3>Chicken Tikka Masala</h3><p>Tandoor-cooked chicken tikka served in a creamy masala sauce with fresh cream &amp; almonds</p></div>
+      </article>
+
+      <article class="dish anim" data-cat="curry">
+        <div class="dish-visual"><img src="images/dish-chicken-bhuna.webp" alt="Chicken Bhuna" class="dish-img"></div>
+        <div class="dish-info"><h3>Chicken Bhuna</h3><p>Chopped onions, roasted red &amp; green peppers, coriander seeds, ginger, garlic &amp; fresh coriander</p><div class="dish-foot"><span class="heat-peppers"><img src="images/Chili-color.png" alt="" class="chili filled"><img src="images/Chili-gray.png" alt="" class="chili outline"><img src="images/Chili-gray.png" alt="" class="chili outline"></span></div></div>
+      </article>
+
+      <article class="dish anim" data-cat="curry">
+        <div class="dish-visual"><img src="images/dish-agra-special.webp" alt="Agra Special" class="dish-img"><span class="dish-badge">Chef's Choice</span></div>
+        <div class="dish-info"><h3>Agra Special</h3><p>Award-winning dish — boneless chicken in yoghurt &amp; special masala sauce with herbs, fresh tomato, ginger, cream &amp; cashewnuts</p></div>
+      </article>
+
+      <article class="dish anim" data-cat="curry">
+        <div class="dish-visual"><img src="images/dish-chicken-rogan-josh.webp" alt="Chicken Rogan Josh" class="dish-img"></div>
+        <div class="dish-info"><h3>Chicken Rogan Josh</h3><p>A Kashmiri curry cooked in tomatoes, garlic, ginger &amp; a touch of yogurt</p><div class="dish-foot"><span class="heat-peppers"><img src="images/Chili-color.png" alt="" class="chili filled"><img src="images/Chili-gray.png" alt="" class="chili outline"><img src="images/Chili-gray.png" alt="" class="chili outline"></span></div></div>
+      </article>
+
+      <article class="dish anim" data-cat="curry">
+        <div class="dish-visual"><img src="images/dish-chicken-chasni.webp" alt="Chicken Chasni" class="dish-img"></div>
+        <div class="dish-info"><h3>Chicken Chasni</h3><p>Tandoor-cooked chicken in fresh cream, mango chutney, garlic &amp; ginger — a sweet &amp; sour delight</p></div>
+      </article>
+
+      <!-- SIZZLERS -->
+      <article class="dish anim" data-cat="sizzler">
+        <div class="dish-visual"><img src="images/dish-chicken-tikka.webp" alt="Chicken Tikka" class="dish-img"></div>
+        <div class="dish-info"><h3>Chicken Tikka</h3><p>Boneless chicken marinated in spices &amp; yogurt, chargrilled in our traditional tandoor oven. Served sizzling with capsicum &amp; onions, with curry sauce</p></div>
+      </article>
+
+      <article class="dish anim" data-cat="sizzler">
+        <div class="dish-visual"><img src="images/dish-lamb-tikka.webp" alt="Lamb Tikka" class="dish-img"></div>
+        <div class="dish-info"><h3>Lamb Tikka</h3><p>Succulent lamb marinated with spices &amp; yogurt, chargrilled in our traditional tandoor oven. Served sizzling with capsicum &amp; onions, with curry sauce</p></div>
+      </article>
+
+      <!-- BIRYANI -->
+      <article class="dish anim" data-cat="biryani">
+        <div class="dish-visual"><img src="images/dish-chicken-tikka-biryani.webp" alt="Chicken Tikka Biryani" class="dish-img"></div>
+        <div class="dish-info"><h3>Chicken Tikka Biryani</h3><p>Tandoor-cooked chicken tikka layered with basmati rice, capsicum, onion &amp; spices — served with curry sauce</p></div>
+      </article>
+
+      <article class="dish anim" data-cat="biryani">
+        <div class="dish-visual"><img src="images/dish-ekhas-biryani.webp" alt="E-Khas Biryani" class="dish-img"></div>
+        <div class="dish-info"><h3>E-Khas Biryani</h3><p>Chicken, lamb &amp; prawns cooked with basmati rice, capsicum, onion &amp; spices — served with curry sauce</p></div>
+      </article>
+
+      <!-- NAAN -->
+      <article class="dish anim" data-cat="naan">
+        <div class="dish-visual"><img src="images/dish-garlic-cheese-naan.webp" alt="Garlic &amp; Cheese Naan" class="dish-img"></div>
+        <div class="dish-info"><h3>Garlic &amp; Cheese Naan</h3><p>Stuffed with melted cheese, garlic &amp; coriander, baked in our tandoor oven</p></div>
+      </article>
+
+      <article class="dish anim" data-cat="naan">
+        <div class="dish-visual"><img src="images/dish-peshwari-naan.webp" alt="Peshwari Naan" class="dish-img"></div>
+        <div class="dish-info"><h3>Peshwari Naan</h3><p>Stuffed with coconut, almonds &amp; sugar, baked in our tandoor oven</p></div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ====== SPECIALITIES ====== -->
+<section class="spec" id="specialities">
+  <div class="section-watermark wm-top-center"><img src="images/bg-overlay.webp" alt="" class="wm-img"></div>
+  <div class="container">
+    <span class="section-tag anim">Specialities</span>
+    <h2 class="spec-title anim">The Tandoor<br><em>Experience</em></h2>
+    <div class="spec-cards">
+      <div class="spec-card anim"><div class="sc-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2c0 4-4 6-4 10a4 4 0 0 0 8 0c0-4-4-6-4-10z"/><path d="M12 22v-4"/></svg></div><h3>Tandoor Crafted</h3><p>Our traditional clay oven brings intense, smoky flavour to every naan and tikka — fired with charcoal for authenticity.</p></div>
+      <div class="spec-card anim" data-delay="100"><div class="sc-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2c1 4 5 6 5 10a5 5 0 0 1-10 0c0-4 4-6 5-10z"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/></svg></div><h3>Spice to Your Taste</h3><p>From mild creamy Korma to fiery Madras — every dish to your preferred spice level.</p></div>
+      <div class="spec-card anim" data-delay="200"><div class="sc-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 22h8"/><path d="M7 10h3V2h4v8h3l-5 12"/><path d="M12 10v12"/><circle cx="8" cy="6" r="0"/><path d="M17 2l1 8"/><path d="M7 2L6 10"/></svg></div><h3>Mediterranean Wines</h3><p>Mallorcan wines and craft beer — curated to complement our cuisine.</p></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ====== REVIEWS ====== -->
+<section class="reviews">
+  <div class="container">
+    <span class="section-tag anim">Reviews</span>
+    <h2 class="section-title center anim">What Our<br><em>Guests Say</em></h2>
+    <div class="review-grid">
+      <blockquote class="review anim"><div class="rev-stars">★★★★★</div><p>"Very high quality curry with fantastic staff. We ordered vegetable pakora, poppadoms, beef passanda, prawn dhansak, peshwari naan and pilau rice. One of the best curries we've had!"</p><footer><strong>— Lucy P</strong><span>Google</span></footer></blockquote>
+      <blockquote class="review anim" data-delay="100"><div class="rev-stars">★★★★★</div><p>"Went to the restaurant as a final day meal before we returned home. Well it did not disappoint. Quality and taste of the food was amazing, a few tips off the owner and the dish was tweaked to our liking. A credit to owner and team on a superb restaurant, we will definitely be back!"</p><footer><strong>— Nita D</strong><span>TripAdvisor</span></footer></blockquote>
+      <blockquote class="review anim" data-delay="200"><div class="rev-stars">★★★★★</div><p>"We ate here on 2 nights of our 5 night holiday. It was so good the 1st night we came back for a 2nd. Food was 100% — could not fault anything we ate. The 2nd night the staff remembered us and our order."</p><footer><strong>— Nursesophie</strong><span>TripAdvisor</span></footer></blockquote>
+    </div>
+  </div>
+</section>
+
+
+<!-- ====== CONTACT ====== -->
+<section class="contact" id="contact">
+  <div class="section-watermark wm-bottom-left"><img src="images/bg-overlay.webp" alt="" class="wm-img"></div>
+  <div class="container">
+    <span class="section-tag center-tag anim">Visit Us</span>
+    <h2 class="section-title center anim">Your Table<br><em>Awaits</em></h2>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="info-items anim">
+          <div class="ii"><div class="ii-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><strong>Location</strong><span>Carrer de Ramon de Montcada, 24, L6<br>Santa Ponsa, Mallorca</span></div></div>
+          <div class="ii"><div class="ii-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><div><strong>Hours</strong><span>Daily: 12:00 – 00:00</span></div></div>
+          <div class="ii"><a href="tel:+34971635713" class="ii-link"><div class="ii-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div><div><strong>Phone</strong><span>+34 971 635 713</span></div></a></div>
+          <div class="ii"><div class="ii-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13" rx="2"/><path d="M16 8h4a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-4"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/><path d="M8 18h8"/></svg></div><div><strong>Delivery &amp; Pick-Up</strong><span>Uber Eats or call direct</span></div></div>
+        </div>
+        <div class="contact-btns anim">
+          <a href="tel:+34971635713" class="btn btn-gold"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span>Call to Reserve</span></a>
+          <a href="mailto:amit76277@gmail.com?subject=Table%20Reservation%20%E2%80%94%20Bombay%20Indian%20Restaurant&body=Hi%2C%20I%27d%20like%20to%20reserve%20a%20table.%0A%0AName%3A%20%0ADate%3A%20%0ATime%3A%20%0AGuests%3A%20" class="btn btn-gold"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4l-10 8L2 4"/></svg><span>Email to Reserve</span></a>
+          <a href="https://maps.google.com/?q=Bombay+Indian+Restaurant+Santa+Ponsa+Mallorca" target="_blank" class="btn btn-outline">Get Directions</a>
+        </div>
+      </div>
+      <div class="contact-visual anim" data-delay="100">
+        <div class="contact-frame">
+          <div class="fc tl"></div><div class="fc tr"></div><div class="fc bl"></div><div class="fc br"></div>
+          <div class="frame-inner"><img src="images/contact-photo.webp" alt="Bombay Indian Restaurant" class="frame-img"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER (dark) -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="images/logo.png" alt="Bombay Indian Restaurant" class="fl-icon">
+        </div>
+        <p>Authentic Indian Cuisine<br>Santa Ponsa, Mallorca</p>
+      </div>
+      <div class="footer-nav"><a href="#home">Home</a><a href="#story">Our Story</a><a href="#menu">Menu</a><a href="#contact">Visit Us</a></div>
+      <div class="footer-contact"><a href="tel:+34971635713">+34 971 635 713</a><span>C/ Ramon de Montcada, 24, L6</span><span>Santa Ponsa, Mallorca</span><span>Daily: 12:00 – 00:00</span></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Bombay Indian Restaurant</span><span class="fb-dot">·</span><span>Santa Ponsa, Mallorca</span></div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
